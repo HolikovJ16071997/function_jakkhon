@@ -12,9 +12,14 @@ for (let b =0; b < 100; b+=3) {
 
 
 
-  function onClik(git) {
-    return  git= "Hello World!";
+  function onClik() {
+    return "Hello World!";
   }
 
-  document.querySelector(".demo").innerHTML = onClik('jonu');
+  console.log(onClik());
   
+  function hello(name){
+        console.log('Hello'+' '+ name)
+  }
+  
+  hello('jony')
